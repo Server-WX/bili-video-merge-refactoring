@@ -11,11 +11,10 @@ jobs:
 
     permissions:
       contents: write
-      id-token: write
-      actions: write
-      packages: write
-      issues: write
-      pull-requests: write
+      # 根据需要添加更多权限
+      # security-events: write
+      # id-token: write
+      # actions: write
 
     steps:
     - name: Checkout code
