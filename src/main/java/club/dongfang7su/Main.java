@@ -67,7 +67,6 @@ public class Main {
         }
 
 //        folderPath = "D:\\桌面\\A";
-//        folderPath = "D:\\桌面\\1804880547";
 //        folderPath = "D:\\桌面\\s_32436";
 
         if (folderPath != null) {
