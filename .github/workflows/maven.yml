@@ -11,10 +11,7 @@ jobs:
 
     permissions:
       contents: write
-      # 根据需要添加更多权限
-      # security-events: write
-      # id-token: write
-      # actions: write
+      # 确保不再有涉及依赖快照的权限设置
 
     steps:
     - name: Checkout code
@@ -49,4 +46,4 @@ jobs:
       with:
         files: target/*.jar
       env:
-        GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
